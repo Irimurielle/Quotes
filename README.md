@@ -1,29 +1,55 @@
-# Quote
+# QUOTES
+## Description
+Quotes app is an online apllication where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+## By Murielle IRIBORI
+## Setup instructions
+* Fork this github repository.
+* Clone it using your command line terminal. git clone https://github.com/Irimurielle/Quotes.git
+* Open it in your browser.
+## Setup installations
+* Must have Ubuntu/Linux
+* Must have github account
+* Must have atom/visual studio code
+* Must have a web browser
+## BDD
+<table>
+    <tr>
+      <th>Behavior</th> 
+      <th>Input</th> 
+      <th>Output</th>   
+    </tr>
+    <tr>
+        <td>Upvote</td>
+        <td>click</td>
+        <td>highlights quote and adds to upvotes</td>
+    </tr> 
+    <tr>
+        <td>Downvote</td>
+        <td>click</td>
+        <td>adds to downvotes</td>
+    </tr>
+    <tr>
+        <td>Delete Quote</td>
+        <td>click</td>
+        <td>deletes quote</td>
+    </tr>
+    <tr>
+        <td>Add Quote</td>
+        <td>quote,name,author,date</td>
+        <td>adds quote to the display</td>
+    </tr>
+    <tr>
+        <td>The user confirms the purchase</td>
+        <td>The user sends request</td>
+        <td>Thank you message and total amount of the purchased items</td>
+    </tr>
+</table>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Quotes
-# Quotes
+## Technologies used
+* HTML
+* CSS
+* Bootstrap
+* Angular CLI
+## Contact information
+* irimurielle@gmail.com
+&copy; 2020
