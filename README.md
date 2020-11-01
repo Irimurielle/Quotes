@@ -51,3 +51,4 @@ Quotes app is an online apllication where users can create quotes and have those
 * irimurielle@gmail.com
 &copy; 2020
 # hgdgdfh
+# Quotes
