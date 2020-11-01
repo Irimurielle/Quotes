@@ -1,1 +1,9 @@
-<p>quote-detail works!</p>
+<p>Author :{{quote.author}}</p>
+<p>Posted by :{{quote.name}}</p>
+<p>Date:{{quote.date|date}}</p>
+<p>Upvotes :{{quote.upvote}}</p>
+<p>Downvotes :{{quote.downvote}} </p>
+<p>This quote was written {{quote.date|pastTime}} days past.</p>
+<button (click)= 'upvote()' class="btn btn-outline-primary">Upvote</button>
+<button (click)= 'downvote()' class="btn btn-outline-primary">Downvote</button>
+<button (click)= 'deleteQuote(true)' class="btn btn-outline-danger">Delete Quote</button>
