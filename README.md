@@ -11,6 +11,8 @@ Quotes app is an online apllication where users can create quotes and have those
 * Must have github account
 * Must have atom/visual studio code
 * Must have a web browser
+## Live site
+
 ## BDD
 <table>
     <tr>
@@ -38,11 +40,6 @@ Quotes app is an online apllication where users can create quotes and have those
         <td>quote,name,author,date</td>
         <td>adds quote to the display</td>
     </tr>
-    <tr>
-        <td>The user confirms the purchase</td>
-        <td>The user sends request</td>
-        <td>Thank you message and total amount of the purchased items</td>
-    </tr>
 </table>
 
 ## Technologies used
@@ -53,3 +50,4 @@ Quotes app is an online apllication where users can create quotes and have those
 ## Contact information
 * irimurielle@gmail.com
 &copy; 2020
+# hgdgdfh
