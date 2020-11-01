@@ -8,7 +8,7 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[]= [
-    new Quote(1,'Murielle', 'Dalai Lama', 'The purpose of our lives is to be happy', 0, 0, new Date(2020, 8, 30))
+    new Quote(1,'Murielle', 'Dalai Lama', 'The purpose of our lives is to be happy', 0, 0, new Date(2020, 8, 29))
   ]
   deleteQuote(isComplete, index) {
     if (isComplete) {
